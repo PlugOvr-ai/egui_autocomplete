@@ -20,7 +20,7 @@ members = ["demo"]
 
 [workspace.dependencies]
 egui = { version = "0.31", default-features = false }
-eframe = { version = "0.30", default-features = false, features = [
+eframe = { version = "0.31", default-features = false, features = [
     "wayland", # Linux support
     "x11",
     "default_fonts",
